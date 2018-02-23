@@ -1,0 +1,8 @@
+[Unit]
+Description=service that runs ping_prober.py
+
+[Service]
+ExecStart=/home/chris/Documents/shared_projects/ping_prober/ping_prober.py
+
+[Install]
+WantedBy=multi-user.target
